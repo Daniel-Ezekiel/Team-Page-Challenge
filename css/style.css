@@ -1,0 +1,258 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+  *{
+    box-sizing: border-box;
+  }
+  
+/******************************************
+/* LAYOUT
+/*******************************************/
+  html{
+    font-size: 62.5%;
+  }
+
+  main{
+    padding: 30px 17px 20px;
+  }
+
+  section{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .person1-3-5,
+  .person2-4-6{
+    position: relative;
+    padding: 0 3px;
+    width: 50%;
+  }
+
+  .person2-4-6{
+    margin-top: 7.5%;
+  }
+
+  .person1-3-5 img,
+  .person2-4-6 img{
+    width: 85%;
+  }
+
+  div span{
+    position: absolute;
+    writing-mode: vertical-rl;
+  }
+
+  footer{
+    min-width: 75%;
+  }
+
+  h6{
+    text-align: center;
+  }
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+*******************************************/
+  h1,
+  div span{
+    font-family: 'PT Serif', serif;
+  }
+
+  h1{    
+    font-size: 3.2rem;
+  }
+
+  h2,
+  p,
+  h4{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+
+  p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  div span {
+    text-transform: uppercase;
+    line-height: 1.7;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.2rem;
+  }
+
+  h4{
+    font-size: 1.2rem;
+  }
+
+  h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #A9A9A9;
+;
+  }
+
+  h6 span{
+    font-weight: 700;
+  }
+
+  h6 a{
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+/**********************************
+/* MEDIA QUERIES
+
+***********************************/
+@media screen and (min-width: 768px){
+  /**************************
+  /* LAYOUT
+  ***************************/
+  main{
+    display: flex;
+    margin-top: 30px;
+  }
+
+  h1{
+    width: 50%;
+  }
+
+  h1, h2{
+    margin-top: 0;
+  }
+
+  .who-we-are{
+    width: 50%;
+  }
+
+  /**************************
+  /* OTHER STYLES
+  *************************/
+  div span{
+    font-size: 1.25rem;
+    letter-spacing: 0.07rem;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  h6, 
+  h6 *{
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (min-width: 1024px ) {
+  /**************************
+  /* LAYOUT
+  ***************************/
+  main{
+    padding: 75px 100px;
+  }
+
+  h1{
+    width: 65%
+  }
+
+  .who-we-are{
+    padding-right: 10%;
+  }
+
+  section{
+    padding: 2%;
+    padding-bottom: 10%;
+  }
+
+  .person1-3-5,
+  .person2-4-6{
+    width: 33.3333%;
+  }
+
+  .bottom-left,
+  .bottom-right{
+    margin-top: 0;
+  }
+
+  .bottom-center{
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1440px ) {
+  /**************************
+  /* FOR THE TYPGRAPHY
+  ***************************/
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  p{
+    font-size: 1.8rem;
+  }
+
+  div span{
+    font-size: 1.6rem;
+  }
+
+  h4{
+    font-size: 1.9rem;
+  }
+
+  h6,
+  h6 *{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1920px ) {
+  /**************************
+  /* FOR THE TYPGRAPHY
+  ***************************/
+  h1{
+    font-size: 4rem;
+    padding-left: 5%;
+  }
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  p{
+    font-size: 1.8rem;
+  }
+
+  div span{
+    font-size: 1.6rem;
+  }
+
+  h4{
+    font-size: 1.9rem;
+  }
+
+  h6,
+  h6 *{
+    font-size: 1.4rem;
+  }
+}
