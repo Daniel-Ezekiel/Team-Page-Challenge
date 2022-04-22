@@ -36,19 +36,19 @@
 
 ## Overview
 
-![Mobile](https://github.com/Lipkis/404-error-challenge/blob/main/images/screenshots/404mobile.png)
-![Desktop](https://github.com/Lipkis/404-error-challenge/blob/main/images/screenshots/404desktop.jpg)
+![Mobile](https://github.com/Lipkis/Team-Page-Challenge/blob/main/images/screenshots/mobile-team.png)
+![Desktop](https://github.com/Lipkis/Team-Page-Challenge/blob/main/images/screenshots/desktop-team.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo? 
-   [See my Demo](https://github.com/Lipkis/404-error-challenge/)
+   [See my Demo](https://github.com/Lipkis/Team-Page-Challenge/)
 - What was your experience?
    This challenge has been a real eye opener for me, I've seen my limitations and know what I need to improve on.
 - What have you learned/improved?
    My use of media queries has become better, and with more practice will keep getting better.
 - Your wisdom? :)
-   Mobile first, always and forever! 
+   Still Mobile first, always and forever! 
 
 ### Built With
 
